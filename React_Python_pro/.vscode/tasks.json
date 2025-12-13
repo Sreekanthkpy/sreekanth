@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Backend",
+			"type": "shell",
+			"command": "uvicorn",
+			"args": [
+				"main:app",
+				"--reload"
+			],
+			"isBackground": true,
+			"group": "build"
+		}
+	]
+}
