@@ -5,6 +5,26 @@
   text-align: center;
 }
 
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.tabs button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.tabs button.active {
+  background: #646cff;
+  color: white;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
